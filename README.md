@@ -1,9 +1,9 @@
 # qkd-build
 
-## AIT QKD R10 build environment based on debian:jessie
+## AIT QKD R10 build environment based on ubuntu:bionic
 
 This prepares a docker build environment to setup all what is needed for an AIT QKD R10 compilation
-on Debian Jessie.
+on Ubuntu bionic (18.04).
 
 
 ---  
