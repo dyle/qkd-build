@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
         libssl-dev \
         libgmp3-dev \
         libzmq3-dev \
+        zlib1g-dev \
         libdbus-1-dev \
         qtbase5-dev qtbase5-dev-tools qdbus-qt5 \
         doxygen \
