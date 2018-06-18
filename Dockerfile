@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
         libdbus-1-dev \
         qtbase5-dev qtbase5-dev-tools qdbus-qt5 \
         doxygen \
-        texlive-latex-base texlive-latex-extra texlive-font-utils \
+        texlive-latex-base texlive-latex-extra texlive-font-utils texlive-fonts-extra \
         dbus-x11 \
         libcap2-bin \
         python3 \
