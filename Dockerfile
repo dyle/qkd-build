@@ -23,7 +23,6 @@ RUN apt-get update && apt-get install -y \
         libcap2-bin \
         python3 \
         locales locales-all dbus qdbus x11-apps \
-        lsb vim git tmux bash-completion tree htop net-tools \
         && rm -rf /var/lib/apt/lists/*
 
 ENV DISPLAY :0
