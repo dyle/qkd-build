@@ -22,6 +22,7 @@ RUN apt-get update && apt-get install -y \
         libcap2-bin \
         python3 \
         locales locales-all dbus qdbus x11-apps \
+        git \
         && rm -rf /var/lib/apt/lists/*
 
 ENV DISPLAY :0
