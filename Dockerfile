@@ -12,7 +12,6 @@ RUN apt-get update && apt-get install -y \
         libssl-dev \
         uuid-dev \
         cmake \
-        libssl-dev \
         libgmp3-dev \
         libzmq3-dev \
         zlib1g-dev \
