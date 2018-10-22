@@ -1,9 +1,9 @@
 # qkd-build
 
-## AIT QKD R10 build environment based on ubuntu:bionic
+## AIT QKD R10 build environment based on ubuntu:cosmic
 
 This prepares a docker build environment to setup all what is needed for an AIT QKD R10 compilation
-on Ubuntu bionic (18.04).
+on Ubuntu cosmic (18.10).
 
 
 ---  
