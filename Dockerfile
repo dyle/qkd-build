@@ -1,4 +1,4 @@
-FROM ubuntu:dingo
+FROM ubuntu:disco
 
 LABEL authors="Oliver Maurhart, Stefan Petscharnig" \
       version="0.1.0"
