@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
         libgmp3-dev \
         libzmq3-dev \
         libdbus-1-dev \
+        zlib1g-dev \
         qtbase5-dev qtbase5-dev-tools qdbus-qt5 \
         doxygen \
         texlive-latex-base texlive-latex-extra texlive-font-utils texlive-fonts-extra \
