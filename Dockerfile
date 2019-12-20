@@ -1,4 +1,4 @@
-FROM ubuntu:disco
+FROM ubuntu:eoan
 
 LABEL authors="Oliver Maurhart, Stefan Petscharnig" \
       version="0.1.0"
