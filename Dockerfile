@@ -8,6 +8,9 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get install -y \
         build-essential \
         g++ gcc \
+        clang \
+        llvm \
+        lcov \
         libboost-all-dev \
         libssl-dev \
         uuid-dev \
