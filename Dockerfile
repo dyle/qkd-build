@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:focal
 
 LABEL authors="Oliver Maurhart, Stefan Petscharnig" \
       version="0.1.0"
@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y \
         dbus-x11 \
         libcap2-bin \
         python3 \
-        locales locales-all dbus qdbus x11-apps \
+        locales locales-all dbus x11-apps \
         lsb vim git tmux bash-completion tree htop net-tools \
         && rm -rf /var/lib/apt/lists/*
 
